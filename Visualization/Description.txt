@@ -1,0 +1,20 @@
+ISS-Tracker
+Witamy w aplikacji śledzącej położenie międzynarodowej stacji kosmicznej ISS.
+
+Autorzy: Cezary Rybak, Adrian Zaręba.
+
+Aplikacja jest zdolna do przeprowadzania następujących akcji:
+1. Wizualizacja na mapie położenia stacji ISS w dowolnym czasie.
+2. Animacja poruszania się stacji w stanie obecnym czy też z wybranym 
+   terminem z przeszłości lub nawet przyszłości.
+3. Zapis parametrów lotu z wybranego przedziału czasowego do pliku CSV.
+4. Odczyt ówcześnie zapisanych danych z pliku CSV.
+5. Wybór prędkości odczytywania danych z pliku CSV.
+6. Wyświetlanie obecnego położenia za pomocą współrzędnych geograficznych
+   oraz prędkości.
+7. Instruaż programu za pomocą wbudowanego tutorialu.
+Całość otoczona jest przejrzystym interfacem.
+
+Analizuj otaczający Cię świat! Korzystaj z dostępnych narzędzi i ciesz 
+się z ich możliwości. Polecamy ISS-Tracker, programu do analizy
+niebanalnych zagadnień.
