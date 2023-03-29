@@ -4,6 +4,5 @@ Interaktywna mapa pokazująca przemieszczanie się Międzynarodowej Stacji Kosmi
 ### Inicjalizacja
 Zależności:
 Maven <br />
-Arcgis map - należy postępować zgodnie z instrukcjami ze strony https://developers.arcgis.com/java/install-and-set-up/ <br />
-
+Arcgis map - należy postępować zgodnie z instrukcjami ze strony https://developers.arcgis.com/java/install-and-set-up/
 JavaFX - https://gluonhq.com/products/javafx/
