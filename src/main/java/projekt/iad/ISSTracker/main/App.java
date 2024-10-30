@@ -37,6 +37,8 @@ import projekt.iad.ISSTracker.data.DataManagerDates;
 import projekt.iad.ISSTracker.data.DataManagerNow;
 
 import java.io.File;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.sql.Time;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -115,7 +117,7 @@ public class App extends Application {
         Scene scene = new Scene(stackPane);
         stage.setScene(scene);
 
-        String yourApiKey = "AAPK985975e2a97d4629bc49fd3a7d104521OzCer-DNeiBcl0BHH3da3haep3MoDWs_C3MjJBIPAq8HuSCn6NReleK91AsoqrrI";
+        String yourApiKey = new String(Files.readAllBytes(Paths.get("api_key.txt"))).trim();
         ArcGISRuntimeEnvironment.setApiKey(yourApiKey);
 
         mapView = new MapView();
